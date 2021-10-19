@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    padding: 0.625rem;
+    width: 100px;
+}
