@@ -1,13 +1,16 @@
 .container{
     display: flex;
-    justify-content: center;
-    width: 100px;
+    
+    width: auto;
+    border-color : red;
+    flex-wrap: wrap;
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
+.card{   
+
+    border-color: red;
+    
     border: 1px;
-    padding: 0.625rem;
-    width: 100px;
+    padding: 2px;
+    width: auto;
 }

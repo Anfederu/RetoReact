@@ -12,6 +12,8 @@ export const Gallery = () => {
 
     ])
 
+    console.log(results)
+
 
 
     return (
@@ -19,8 +21,8 @@ export const Gallery = () => {
             {results.map((personaje) => (
                 <Card
                     key={personaje.id}
-                    nombre={personaje.name}
-                    image={personaje.img}
+                    name={personaje.name}
+                    image={personaje.image}
                     status={personaje.status}
                     gender={personaje.gender}
                 />
